@@ -1,4 +1,3 @@
-require "pry"
 class Deck
     attr_reader :cards
 
@@ -36,5 +35,3 @@ class Card
         @suit = suit
     end
 end
-
-binding.pry
